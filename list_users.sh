@@ -1,2 +1,2 @@
 #!/bin/bash
-awk -F: '{print $1, ($2 ~ /^[!*]/ ? "(Non-Login)" : "(Login)")}' /etc/shadow
+awk -F: '{print $1, ($2 ~ /^[!*]/ ? "(non-login)" : "(login)")}' /etc/shadow
